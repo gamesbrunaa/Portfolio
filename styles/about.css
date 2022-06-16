@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker&display=swap');
+
+#about{
+    display: inline-block;
+    position: absolute;
+    margin-top: 200px;
+    background-color: #252422;
+    font-family: 'Blinker', 'Courier New', Courier, monospace;
+    width: 1440px;
+}
+
+#waves2{
+    position: relative;
+}
+
+#waves2 img{
+    position: absolute;
+    transform: rotate(-180deg);
+}
+
+#about h1{
+    position: relative;
+    color: #252422;
+    font-size: 64px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+}
+
+#about p{
+    width: 400px;
+    color: #F2F0D8;
+    font-size: 20px;
+    display: inline-block;
+    text-align: justify;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+
+#circle1 {
+    position: absolute;
+    width: 280px;
+    height: 280px;
+    left: 78px;
+    top: 180px;
+    border-radius: 50%;
+    background-color: #F2F0D8;
+}
+
+#mulher{
+    position: relative;
+    margin-bottom: 30px;
+}
+
+#imagens{
+    display: inline-block;
+    align-content: center;
+}
+
+#download{
+    display: grid;
+    margin-left: 110px;
+    width: 217px;
+    height: 33px;
+    font-size: 20px;
+    font-family: 'Blinker', 'Courier New', Courier, monospace;
+    background: #F2F0D8;
+    box-shadow: 0px 4px 4px rgba(242, 240, 216, 0.25);
+    border-radius: 50px;
+    border: 0px;
+}
+
+#about2{
+    position: absolute;
+    display: inline-block;
+    width: 420px;
+    height: 500px;
+    top: 185px;
+    margin-left: 30px;
+    background-color: #F2F0D8;
+    font-family: 'Blinker', 'Courier New', Courier, monospace;
+}
+
+.education{
+    display: inline-flex;
+}
+
+#about2 h2{
+    background-color: #252422;
+    color: #F2F0D8;
+    font-size: 23px;
+    text-align: center;
+}
+
+#acima{
+    margin-top: -20px;
+}
+
+.ano{
+    margin-left: -30px;
+    width: 50px;
+    height: 50px;
+    clip-path: circle(45%);
+    background-color: #252422;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+#about2 h3{
+    font-size: 20px;
+    text-align: center;
+}
+

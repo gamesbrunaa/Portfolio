@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker&display=swap');
+
+main{
+    padding-top: 60px;
+    height: 350px;
+    background-color: #252422;
+    color: #F2F0D8;
+}
+
+main > p{
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+main > p#hello{
+    color: #F2F0D8;
+    margin-left: 210px;
+}
+
+main > p#hello #xau{
+    width: 40px;
+    height: 40px;
+}
+
+main > p#nome{
+    color: #f24b4b;
+    margin-left: 278px;
+}
+
+img#waves1{
+    position: absolute;
+    width: 1440px;
+    height: 164px;
+    left: 0px;
+    top: 400px;
+}
+
+.foto{
+    position: absolute;
+    left: 1048px;
+    top: 290px;
+}
+
+.foto img{
+    width: calc(4rem + 15vw);
+    height: calc(4rem + 15vw);
+    border-radius: 100%;
+    object-fit: cover;
+    animation: alternate;
+    transition: 0.5s;
+    border-bottom: 1rem solid #252422;
+    border-left: 0.4rem solid #252422;
+    border-right: 0.4rem solid #252422;
+}
+
+#foto2{
+    position: absolute;
+    width: calc(4rem + 15vw);
+    height: calc(4rem + 15vw);
+    border-radius: 100%;
+    background: #F24B4B;
+    border-top: 10px solid #f24b4b;
+    border-left: 3px solid #f24b4b;
+    border-right: 8px solid #f24b4b;
+}
+
+#waves1{
+    position: relative;
+    margin-top: 70px;
+}
+
+#onda1{
+    background-color: #F2F0D8;
+}
+
+span.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 550px;
+    margin-left: 100px;
+    width: 250px;
+    height: 25px;
+    font-family: 'Blinker';
+    padding: 10px;
+    background-color: #252422;
+    border-radius: 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);;
+}
+
+#dois{
+    left: 330px;
+}
+
+#tres{
+    left: 670px;
+}
+
+span > img{
+    width: 30px;
+    height: 30px;
+}
+
+span > p{
+    display: inline;
+    padding: 10px;
+    font-size: 20px;
+}
