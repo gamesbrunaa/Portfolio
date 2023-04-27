@@ -2,6 +2,7 @@
 
 main{
     padding-top: 60px;
+    width: 99.99vw;
     height: 350px;
     background-color: #252422;
     color: #F2F0D8;
@@ -64,46 +65,73 @@ img#waves1{
     border-right: 8px solid #f24b4b;
 }
 
-#waves1{
-    position: relative;
-    margin-top: 70px;
-}
-
 #onda1{
-    background-color: #F2F0D8;
+    margin-top: 14%;
 }
 
-span.title{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+#onda1 > a > button > i{
+    padding-right: 5px;
+}
+
+button {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    font-size: inherit;
+    font-family: inherit;
+    margin-left: 8%;
+    width: 17vw;
+}
+
+button.title {
+    font-weight: 600;
+    color: #382b22;
+    text-transform: uppercase;
+    padding: 1.25em 2em;
+    background: #fff0f0;
+    border: 2px solid #b18597;
+    border-radius: 0.75em;
+    transform-style: preserve-3d;
+    transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), background 150ms cubic-bezier(0, 0, 0.58, 1);
+}
+
+button.title::before {
     position: absolute;
-    top: 550px;
-    margin-left: 100px;
-    width: 250px;
-    height: 25px;
-    font-family: 'Blinker';
-    padding: 10px;
-    background-color: #252422;
-    border-radius: 50px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #f9c4d2;
+    border-radius: inherit;
+    box-shadow: 0 0 0 2px #b18597, 0 0.625em 0 0 #ffe3e2;
+    transform: translate3d(0, 0.75em, -1em);
+    transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), box-shadow 150ms cubic-bezier(0, 0, 0.58, 1);
 }
 
-#dois{
-    left: 330px;
+  button.title:hover {
+    background: #ffe9e9;
+    transform: translate(0, 0.25em);
 }
 
-#tres{
-    left: 670px;
+button.title:hover::before {
+    box-shadow: 0 0 0 2px #b18597, 0 0.5em 0 0 #ffe3e2;
+    transform: translate3d(0, 0.5em, -1em);
+  
 }
 
-span > img{
-    width: 30px;
-    height: 30px;
+button.title:active {
+    background: #ffe9e9;
+    transform: translate(0em, 0.75em);
 }
 
-span > p{
-    display: inline;
-    padding: 10px;
-    font-size: 20px;
+button.title:active::before {
+    box-shadow: 0 0 0 2px #b18597, 0 0 #ffe3e2;
+    transform: translate3d(0, 0, -1em);
 }
