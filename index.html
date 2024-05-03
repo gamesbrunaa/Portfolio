@@ -1,34 +1,295 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio - Bruna Veloso</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body class="dark-theme || light-theme">>
-    <nav class="menu">
-        <img src="#" alt="logotipo-bruna">
-        <li>
-            <ul>Home</ul>
-            <ul>Sobre</ul>
-            <ul>Serviços</ul>
-            <ul>Projetos</ul>
-        </li>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfólio - Bruna Veloso</title>
+        <link rel="stylesheet" href="style.css">
 
-        <div class="switch">
-            <img src="/assets/icon2/brasil.png" alt="bandeira-brasil">
-            <input type="checkbox" id="switch" />
-            <label for="switch">Toggle</label>
-            <img src="/assets/icon2/eua.png" alt="bandeira-eua">
-        </div>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&display=swap" rel="stylesheet">
+    </head>
+    <body class="dark-theme || light-theme">
+        <nav class="menu">
+            <img src="/assets/icons/logo1.png" alt="logotipo-bruna">
+            <ul>
+                <li><a href="#inicio">HOME</a></li>
+                <li><a href="#sobre">SOBRE</a></li>
+                <li><a href="#servicos">SERVIÇO</a></li>
+                <li><a href="#projetos">PROJETOS</a></li>
+                <li><a href="#contato">CONTATO</a></li>
+            </ul>
 
-        <button class="btn-toggle">
-            <img id="agni" src="/assets/icon2/moon 1.png" alt="dark-mode" onclick="trocar(this)">
-        </button>
+            <div class="switch">
+                <img src="/assets/icon2/brasil.png" alt="bandeira-brasil">
+                <input type="checkbox" id="switch" />
+                <label for="switch">Toggle</label>
+                <img src="/assets/icon2/eua.png" alt="bandeira-eua">
+            </div>
 
-    </nav>
+            <div id="botao-tema">
+                <button class="btn-toggle">
+                    <img id="agni" src="/assets/icon2/moon 1.png" alt="dark-mode" onclick="trocar(this)">
+                </button>
+            </div>
+        </nav>
 
-    <script src="/scripts/script.js"></script>
-</body>
+        <main>
+            <img src="/assets/images2/ilustracao-inicial.png" alt="ilustracao-inicial">
+            <h1>Olá, mundo!
+               <br> Eu sou <b>Bruna Veloso.</b>
+            </h1>
+            <h2><>Fullstack Developer/></h2>
+        </main>
+
+        <img src="/assets/images2/wave.png" id="onda-principal">
+
+        <section id="quem-sou">
+            <div id="container-quemsou">
+                <div>
+                    <img src="/assets/images2/foto-perfil.png" alt="">
+                </div>
+
+                <div id="quemsou-conteudo">
+                    <h3><>Quem sou?/></h3>
+                    <h1>Bruna Veloso</h1>
+                    <h2>Fullstack Developer e UI Designer</h2>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis egestas metus. Suspendisse maximus ante ac efficitur ullamcorper. Donec sed orci vitae arcu consequat tempor. Fusce non diam turpis. Donec mattis justo sit amet turpis finibus hendrerit. Nunc interdum enim eget felis mollis tempor. Phasellus a enim molestie sem tristique rhoncus in ut tortor. Mauris vel nulla eros. </p>
+
+                    <div id="redes-sociais">
+                        <button><a href="#"><img src="/assets/icon2/instagram.png" alt="Instagram"></a></button>
+                        <button><a href="#"><img src="/assets/icon2/linkedin.png" alt="Linkedin"></a></button>
+                        <button><a href="#"><img src="/assets/icon2/pinterest.png" alt="Pinterest"></a></button>
+                        <button><a href="#"><img src="/assets/icon2/github.png" alt="GitHub"></a></button>
+                        <button><a href="#"><img src="/assets/icon2/behance.png" alt="Behance"></a></button>
+                    </div>
+                
+                </div>
+            </div>
+        </section>
+
+        <section id="habilidades">
+            <h2><>Habilidades</></h2>
+            <h3><>Habilidades</></h3>
+
+            <div id="container-habilidades">
+                <div class="card-habilidades">
+                    <img src="/assets/icon2/html.png">
+                    <h3>HTML</h3>
+                </div>
+
+                <div class="card-habilidades">
+                    <img src="/assets/icon2/css.png">
+                    <h3>CSS</h3>
+                </div>
+
+                <div class="card-habilidades">
+                    <img src="/assets/icon2/javascript.png">
+                    <h3>Javascript</h3>
+                </div>
+
+                <div class="card-habilidades">
+                    <img src="/assets/icon2/typescript.png">
+                    <h3>Typescript</h3>
+                </div>
+
+                <div class="card-habilidades">
+                    <img src="/assets/icon2/reactjs.png">
+                    <h3>ReactJS</h3>
+                </div>
+
+                <div class="card-habilidades">
+                    <img src="/assets/icon2/git.png">
+                    <h3>GIT</h3>
+                </div>
+
+                <div class="card-habilidades">
+                    <img src="/assets/icon2/python.png">
+                    <h3>Python</h3>
+                </div>
+
+                <div class="card-habilidades">
+                    <img src="/assets/icon2/nodejs.png">
+                    <h3>NodeJS</h3>
+                </div>
+            </div>
+        </section>
+
+        <section id="servicos">
+            <h2><>Serviços</></h2>
+            <h3><>Serviços</></h3>
+
+            <div id="container-servicos">
+                <div class="card-servicos">
+                    <img src="/assets/icon2/logo-design 1.png">
+                    <h3>Design Gráfico</h3>
+                    <p>Crio designs únicos que transformam a cara da sua empresa.</p>
+                </div>
+
+                <div class="card-servicos">
+                    <img src="/assets/icon2/ux-design 1.png">
+                    <h3>UI Design</h3>
+                    <p>Desenho interfaces de forma clara, objetiva e intuitiva para os usuários.</p>
+                </div>
+
+                <div class="card-servicos">
+                    <img src="/assets/icon2/web-programming 1.png">
+                    <h3>Desenvolvimento</h3>
+                    <p>Desenvolvo sites profissionais, blogs, portfólios, landing pages e e-commerces.</p>
+                </div>
+            </div>
+        </section>
+
+        <img src="/assets/images2/wave.png" id="onda-principal">
+
+        <section id="etapas">
+            <img src="/assets/images2/ilustracao2.png" alt="ilustracao2">
+            <h2><>Etapas do nosso processo de criação/></h2>
+
+            <div id="container-etapas">
+                <div class="card-etapas">
+                    <div><img src="/assets/icon2/data 1.png"></div>
+                    <h3><>análise/></h3>
+                    <p>compreender as necessidades dos clientes e identificar melhores soluções.</p>
+                </div>
+    
+                <div class="card-etapas">
+                    <div><img src="/assets/icon2/curve (1) 1.png"></div>
+                    <h3><>design/></h3>
+                    <p>criar interfaces intuitivas e atraentes por meio de prototipos interativos.</p>
+                </div>
+    
+                <div class="card-etapas">
+                    <div><img src="/assets/icon2/binary 1.png"></div>
+                    <h3><>código/></h3>
+                    <p>transformar ideias em software funcional e eficiente, utilizando tecnologias de ponta.</p>
+                </div>
+    
+                <div class="card-etapas">
+                    <div><img src="/assets/icon2/analyze 1.png"></div>
+                    <h3><>testes/></h3>
+                    <p>garantir a qualidade e estabilidade do software por meio de testes rigorosos e correções iterativas.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projetos">
+            <h2><>Projetos/></h2>
+            <h3><>Projetos/></h3>
+
+            <div id="filtros">
+                <img src="/assets/icon2/filter 1.png">
+                <button>TODOS</button>
+                <button>BACKEND</button>
+                <button>WEB</button>
+                <button>DESIGN</button>
+            </div>
+
+            <div id="container-projetos">
+                <div class="card-projetos">
+                    <div class="conteudo-card">
+                        <h3>NOME DO PROJETO</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis egestas metus. Suspendisse maximus ante ac efficitur ullamcorper. Donec sed orci vitae arcu consequat tempor. Fusce non diam turpis. Donec mattis justo sit amet turpis finibus hendrerit. Nunc interdum enim eget felis mollis tempor. </p>
+                        <div class="tecnologias">
+                            <img src="/assets/icon2/html 1.png">
+                            <img src="/assets/icon2/css-3 2.png">
+                            <img src="/assets/icon2/physics 1.png">
+                        </div>
+
+                        <button class="button-projeto">VER PROJETO AQUI</button>
+                        <button class="button-repositorio">VER REPOSITÓRIO GITHUB</button>
+                    </div>
+                    <div class="imagem-card">
+                        <img src="/assets/images2/Group 20.png">
+                    </div>
+                </div>
+            </div>
+
+            <div id="container-projetos">
+                <div class="card-projetos">
+                    <div class="conteudo-card">
+                        <h3>NOME DO PROJETO</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis egestas metus. Suspendisse maximus ante ac efficitur ullamcorper. Donec sed orci vitae arcu consequat tempor. Fusce non diam turpis. Donec mattis justo sit amet turpis finibus hendrerit. Nunc interdum enim eget felis mollis tempor. </p>
+                        <div class="tecnologias">
+                            <img src="/assets/icon2/html 1.png">
+                            <img src="/assets/icon2/python 2.png">
+                        </div>
+
+                        <button class="button-projeto">VER PROJETO AQUI</button>
+                        <button class="button-repositorio">VER REPOSITÓRIO GITHUB</button>
+                    </div>
+                    <div class="imagem-card">
+                        <img src="/assets/images2/Group 20.png">
+                    </div>
+                </div>
+            </div>
+
+            <div id="container-projetos">
+                <div class="card-projetos">
+                    <div class="conteudo-card">
+                        <h3>NOME DO PROJETO</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis egestas metus. Suspendisse maximus ante ac efficitur ullamcorper. Donec sed orci vitae arcu consequat tempor. Fusce non diam turpis. Donec mattis justo sit amet turpis finibus hendrerit. Nunc interdum enim eget felis mollis tempor. </p>
+                        <div class="tecnologias">
+                            <img src="/assets/icon2/html 1.png">
+                            <img src="/assets/icon2/css-3 2.png">
+                            <img src="/assets/icon2/physics 1.png">
+                            <img src="/assets/icon2/python 2.png">
+                        </div>
+
+                        <button class="button-projeto">VER PROJETO AQUI</button>
+                        <button class="button-repositorio">VER REPOSITÓRIO GITHUB</button>
+                    </div>
+                    <div class="imagem-card">
+                        <img src="/assets/images2/Group 20.png">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato">
+            <div id="container-contato">
+                <div id="conteudo-contato">
+                    <h2>Vamos conversar!</h2>
+                    <form action="">
+                        <label for="nome">Nome</label>
+                        <input type="text" class="input-normal">
+
+                        <label for="email">E-mail</label>
+                        <input type="text" class="input-normal">
+
+                        <label for="mensagem">Mensagem</label>
+                        <input type="text" id="mensagem-input">
+
+                        <button>Enviar</button>
+                    </form>
+                </div>
+
+                <div id="imagens-contato">
+                    <div id="banner-imagem">
+                        <img src="/assets/images2/ilustracao-final.png" alt="ilustracao-final">
+                    </div>
+                    <div id="banner-contato">
+                        <div class="redes-sociais2">
+                            <img src="/assets/icon2/instagram (2) 1.png">
+                            <p>@gamesbrunaa</p>
+                        </div>
+                        <div class="redes-sociais2">
+                            <img src="/assets/icon2/whatsapp.png">
+                            <p>+55 89 9 9449-0526</p>
+                        </div>
+                        <div class="redes-sociais2">
+                            <img src="/assets/icon2/o-email 1.png">
+                            <p>xxbrua@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <img src="/assets/images2/wavesNegative 3.png" id="onda-final">
+
+        <script src="/scripts/script.js"></script>
+    </body>
 </html>
