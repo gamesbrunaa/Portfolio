@@ -17,6 +17,14 @@ body{
   font-family: 'blinker', 'arial';
 }
 
+a{
+  color: var(--text1);
+}
+
+a.dark-theme{
+  color: var(--details);
+}
+
 body.dark-theme{
   background-color: var(--text1);
   color: var(--background);
@@ -59,7 +67,6 @@ body.dark-theme{
   margin-right: 50px;
   text-decoration: none;
   font-weight: 400;
-  color: #232532;
 }
 
 .switch > img{

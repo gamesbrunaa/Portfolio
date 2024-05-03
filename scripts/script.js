@@ -6,7 +6,8 @@ const bto1 = document.getElementById('agni');
 btn.addEventListener('click', function() {
   // Then toggle (add/remove) the .dark-theme class to the body
   document.body.classList.toggle('dark-theme');
-})
+  document.a.classList.toggle('dark-theme');
+});
 
 function trocar(element) {
     if(element.id == "agni") {
